@@ -1,0 +1,17 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "env": {
+    "node": true,
+    "es2021": true
+  },
+  "parserOptions": {
+    "sourceType": "module",
+    "project": "./base64/server/tsconfig.json"
+  },
+  "extends": ["airbnb-base", "airbnb-typescript/base", "prettier"],
+  "rules": {
+    // お好みで設定
+  }
+}

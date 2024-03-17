@@ -1,0 +1,27 @@
+.image-upload-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+#image-input {
+  margin-bottom: 10px;
+}
+
+.preview-container {
+  width: 100%;
+  max-width: 300px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.preview-image {
+  width: 100%;
+  height: auto;
+}
+
+button {
+  margin-top: 24px;
+}
